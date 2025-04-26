@@ -1,42 +1,20 @@
+/* General */
 body {
-    background-color: #f8bed2; 
-    font-family: 'PT Sans', sans-serif; 
+    background-color: #f8bed2;
+    font-family: 'PT Sans', sans-serif;
 }
 
-/* Subtítulos h2 */
-h2 span {
-    font-size: 80%; 
-}
-
-/* Tarjetas promociones */
-.card-title {
-    font-family: 'Bebas Neue', sans-serif;
-}
-
-.card-img-top:hover {
-    transform: scale(1.05); /* Escala ligeramente la imagen */
-    transition: transform 0.3s; /* Transición suave */
-}
-
-/*Párrafos */
-p {
-    max-width: 800px; /* Ancho máximo de los párrafos */
-    margin: 0 auto; /* Centrado del texto */
-}
-
-/* Estilos de navegación */
+/* Navbar */
 .navbar {
-    background-color: #444; /* Fondo oscuro */
+    background-color: #444;
     padding: 1rem;
-    position: fixed;
+    position: relative;
     width: 100%;
-    top: 0;
-    left: 0;
     z-index: 100;
 }
 
 .navbar ul {
-    list-style-type: none;
+    list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
@@ -60,22 +38,52 @@ p {
 }
 
 .navbar a:hover {
-    color: #f8bed2; /* Color rosa al pasar el ratón */
+    color: #f8bed2;
 }
 
-/* Estilo de banners */
-.banner {
-    background-color: #444;
-    color: white;
-    text-align: center;
-    padding: 50px 0;
+/* Títulos */
+.titulo1 {
+    font-size: 150px;
+    text-shadow: 5px 5px 15px #4A102A;
+    
 }
 
-.banner h1 {
-    font-size: 2.5rem;
+.titulo2{
+    text-shadow: 2px 2px 15px #85193C;
+    font-weight: bold;
 }
 
-/* Estilo de footer */
+.titulo2 {
+    font-size: 50px;
+}
+
+h3{
+    font-size: 50px;
+    font-weight: bold;
+    padding: 50px;
+}
+
+section{
+    padding: 5px;
+}
+
+/* Párrafos */
+p {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Tarjetas */
+.card-title {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.card-img-top:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+
+/* Footer */
 footer {
     background-color: #444;
     color: white;
@@ -86,6 +94,7 @@ footer {
 footer h3 {
     font-size: 1.5rem;
     margin-bottom: 20px;
+    padding: 0px;
 }
 
 footer p {
@@ -103,7 +112,7 @@ footer .redes img:hover {
     transform: scale(1.2);
 }
 
-/* Estilos adicionales para la sección de formularios */
+/* Formularios */
 form {
     max-width: 600px;
     margin: 0 auto;
@@ -113,8 +122,8 @@ form input, form textarea, form button {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
-    border-radius: 5px;
     border: 1px solid #ccc;
+    border-radius: 5px;
     font-size: 1rem;
 }
 
@@ -122,6 +131,7 @@ form button {
     background-color: #f8bed2;
     color: white;
     cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 form button:hover {
