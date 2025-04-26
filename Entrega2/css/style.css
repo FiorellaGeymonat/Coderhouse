@@ -1,0 +1,129 @@
+body {
+    background-color: #f8bed2; 
+    font-family: 'PT Sans', sans-serif; 
+}
+
+/* Subtítulos h2 */
+h2 span {
+    font-size: 80%; 
+}
+
+/* Tarjetas promociones */
+.card-title {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.card-img-top:hover {
+    transform: scale(1.05); /* Escala ligeramente la imagen */
+    transition: transform 0.3s; /* Transición suave */
+}
+
+/*Párrafos */
+p {
+    max-width: 800px; /* Ancho máximo de los párrafos */
+    margin: 0 auto; /* Centrado del texto */
+}
+
+/* Estilos de navegación */
+.navbar {
+    background-color: #444; /* Fondo oscuro */
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin-right: 20px;
+}
+
+.navbar li:last-child {
+    margin-right: 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #f8bed2; /* Color rosa al pasar el ratón */
+}
+
+/* Estilo de banners */
+.banner {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.banner h1 {
+    font-size: 2.5rem;
+}
+
+/* Estilo de footer */
+footer {
+    background-color: #444;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+footer p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+footer .redes img {
+    width: 40px;
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+footer .redes img:hover {
+    transform: scale(1.2);
+}
+
+/* Estilos adicionales para la sección de formularios */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+form button {
+    background-color: #f8bed2;
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #d48a9f;
+}

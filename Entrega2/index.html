@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Amichas Gym</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand"href="./index.html">AMICHAS GYM</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavInicio" aria-controls="navbarNavInicio" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavInicio">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link active" href="./index.html">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="./pages/nosotras.html">Nosotras</a></li>
+                <li class="nav-item"><a class="nav-link" href="./pages/instalaciones.html">Instalaciones</a></li>
+                <li class="nav-item"><a class="nav-link" href="./pages/horarios.html">Horarios</a></li>
+                <li class="nav-item"><a class="nav-link" href="./pages/contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <!-- Banner -->
+<header class="text-center d-flex align-items-center justify-content-center bg-light" style="background-image: url('./images/banner.png'); height: 400px; background-size: cover; background-position: center;">
+    <h1 class="display-1 text-dark" style="font-family: 'Montserrat', sans-serif;">AMICHAS GYM</h1>
+</header>
+
+    <!-- Subtítulo -->
+<section class="text-center my-5">
+    <h2 class="text-primary" style="font-family: 'Bebas Neue', sans-serif;">Tu gimnasio de <span class="d-block">confianza</span></h2>
+</section>
+
+<hr class="my-4">
+
+    <!-- Video -->
+<section class="container text-center mb-5">
+    <video autoplay controls muted class="rounded" style="width: 50%;">
+        <source src="./videos/videogym.mp4" type="video/mp4">
+        Tu navegador no soporta el video.
+    </video>
+</section>
+
+    <!-- Filosofía -->
+<section class="container my-5">
+    <h2 class="text-center mb-4">Nuestra Filosofía</h2>
+    <p class="lead text-justify">En nuestro gimnasio exclusivo para mujeres, creemos en la importancia de crear un espacio seguro, inclusivo y empoderador donde cada una pueda alcanzar sus metas personales...</p>
+</section>
+
+    <!-- Promociones -->
+<section class="container my-5">
+    <h2 class="text-center mb-4">Promociones</h2>
+    <div class="row g-4">
+        <div class="col-md-6">
+            <div class="card h-100 text-center">
+                <img src="./images/promo2.jpg" class="card-img-top" alt="Promo1">
+                <div class="card-body">
+                    <h3 class="card-title">¡Invita a una amiga!</h3>
+                    <p class="card-text">¿Te gustaría ponerte en forma y no hacerlo sola? ¡Trae a una amiga y ambas disfruten de nuestro 2x1 en el primer mes!</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card h-100 text-center">
+                <img src="./images/promo1.jpg" class="card-img-top" alt="Promo2">
+                <div class="card-body">
+                    <h3 class="card-title">¡Promo 3 meses!</h3>
+                    <p class="card-text">Haz que tu esfuerzo cuente y paga 3 meses seguidos para obtener un descuento exclusivo. ¡No lo dejes pasar!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Testimonios -->
+<section class="container my-5">
+    <h2 class="text-center mb-4">Testimonios</h2>
+    <h3 class="text-center mb-3">Conoce los testimonios de nuestras amichas</h3>
+    <p class="text-justify">Laura, 29 años, Abogada: "Nunca había sido fan del ejercicio, pero este gimnasio cambió mi perspectiva..."</p>
+    <p class="text-justify">Camila, 35 años, Empresaria: "Decidí unirme hace seis meses y fue la mejor decisión que pude haber tomado..."</p>
+    <p class="text-justify">Ana, 42 años, Madre y Estilista: "Como madre y mujer trabajadora, este gimnasio se convirtió en mi espacio favorito."</p>
+</section>
+
+    <!-- Footer -->
+<footer class="bg-dark text-light text-center p-4">
+    <h3>Síguenos</h3>
+    <div class="d-flex justify-content-center mb-3">
+        <img src="./images/instagram.png" alt="Instagram" class="mx-2" style="height: 30px;">
+        <img src="./images/facebook.png" alt="Facebook" class="mx-2" style="height: 30px;">
+    </div>
+    <h3>Dirección</h3>
+    <p>Calle Amistad 1234, Barrio Gimnasia, Montevideo</p>
+    <div class="d-flex justify-content-center">
+        <iframe src="https://www.google.com/maps/embed?pb=..." width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+</footer>
+
+    <!-- Bootstrap JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

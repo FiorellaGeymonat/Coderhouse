@@ -1,0 +1,246 @@
+/*font titles*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* font paragraph */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/*reset margenes*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f8bed2; /* Color de fondo */
+    font-family: "PT Sans", sans-serif;         
+}
+
+/* Barra de navegacion */
+.navbar a{
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+.navbar{
+    display: flex;
+    justify-content: flex-end; /*Mover elementos a derecha*/
+    padding: 10px;  /* Sacar espacio entre banner y navbar */
+    background-color: #604652;
+    font-size: 110%;     
+}
+
+.navbar ul{
+    display: flex;  
+    list-style: none;  /*Quitar puntos*/
+    margin: 0;  
+    padding: 0;
+}
+
+.navbar li {
+    font-weight: bold;
+    margin-left: 20px;     
+}
+
+/*Imagen de banner*/
+.banner {
+    position: relative;
+    background-image: url('../images/banner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 400px;
+    background-size: cover;
+    text-align: center;                   
+}
+
+
+/* Titulo principal*/
+.banner h1{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family:"Bebas Neue", sans-serif;
+    font-size: 600%;
+    color: #604652;                   
+}
+
+/*Subtitulo*/
+.subtitulo h2{
+    font-family:"Bebas Neue", sans-serif;
+    font-size: 250%;
+    color: #604652;  
+    text-align: center;    
+    color: #ff5692;
+    }
+
+.subtitulo h2 span{
+    display: block; 
+    font-size: 100%; 
+    margin-top: 5px;
+   
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    max-width: 800px; 
+    margin: 0 auto;   
+}
+
+.video-container video {
+    width: 50%; 
+    height: auto; /* Mantiene proporción */
+    border-radius: 10px; /* Bordes redondeados, opcional */
+}
+
+.video-container video:hover {
+    transform: scale(1.03);
+}
+
+/* Titulos filosofia,promociones y testimonios */
+h2{
+    font-size: 200%;
+    color: #604652;
+    text-align: center;
+    margin-top: 2%; 
+    margin-bottom: 2%; 
+}
+
+/* Texto de parrafos */
+p{
+    text-align: justify; /* align center en footer */
+    width: 50%;
+    margin: 0 auto;
+    font-size: 110%
+}
+
+.linea-separadora {
+    border: none; /* saca el borde por defecto */
+    height: 2px; /* grosor de la línea */
+    background-color: #97866A; /* color que combine con tu diseño */
+    margin: 20px auto; /* espacio alrededor y centrado */
+    width: 80%; /* ancho de la línea */
+}
+
+/* Promociones */   
+.section2 {
+    display: flex;              
+    justify-content: center;    /* Centra las imágenes horizontalmente */
+    align-items: center;        /* Centra las imágenes verticalmente si se necesitan más de una fila */
+    flex-wrap: wrap;           
+    margin: 20px 0;
+    gap: 20px;
+}
+
+.section2 .promo{
+    display: flex;
+    flex-direction: column;     
+    align-items: center;        
+    text-align: center;
+}
+
+.section2 .promo img{
+    width: 200px ;
+    height: auto; 
+    margin-bottom: 10px;      
+}
+
+.section2 h3{
+    font-size: 110%;
+}
+
+/* Espacio entre parrafos testimonios/nosotras */
+.section3 p{
+    margin-bottom: 20px;
+}
+
+.section3 li{
+    text-align: justify;
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* Tamanio logos redes */
+.redes img{
+    height: 30px;    
+}
+
+
+/*Horarios*/
+
+
+.sectionhorarios img{
+    display:block;
+    margin: 0 auto;
+    width: 50%;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10%;
+}
+
+/* Contacto - Formulario */
+.container {
+    width: 400px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+label {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+    font-weight: bold;
+}
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: inline-block;
+}
+button {
+    background-color: #ff66b2;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #e0559a;
+}
+
+/* Footer */
+footer {
+    background-color: #604652;
+    text-align: center;
+    position: relative;
+}
+
+/* Espacio entre direccion y mapa */
+footer p{
+    margin-bottom: 20px;
+    text-align: center;    
+}
+
+/* Redes en footer */
+h3{
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+
+
+
+
+
