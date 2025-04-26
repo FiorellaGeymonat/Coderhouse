@@ -1,7 +1,12 @@
-/* General */
 body {
     background-color: #f8bed2;
     font-family: 'PT Sans', sans-serif;
+}
+
+header{
+    height: 440px; background-size: cover;
+    background-position: center;
+    background-image: url('../images/banner.png');
 }
 
 /* Navbar */
@@ -43,22 +48,40 @@ body {
 
 /* Títulos */
 .titulo1 {
-    font-size: 150px;
+    font-size: 10em;
     text-shadow: 5px 5px 15px #4A102A;
+    font-family: 'Montserrat', sans-serif;
     
 }
 
 .titulo2{
     text-shadow: 2px 2px 15px #85193C;
     font-weight: bold;
+    font-size: 40px;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
-.titulo2 {
-    font-size: 50px;
+.titulo-otros{
+    font-weight: bold;
+    font-size: 4em;
+    text-shadow: 5px 5px 15px #4A102A;
+}
+
+banner {
+    height: 300px; 
+    background-color: #f8bed2;
+}
+
+video{
+    width: 30%;
+}
+
+section h2{
+    text-shadow: 5px 5px 15px #4A102A;
 }
 
 h3{
-    font-size: 50px;
+    font-size: 30px;
     font-weight: bold;
     padding: 50px;
 }
@@ -69,6 +92,7 @@ section{
 
 /* Párrafos */
 p {
+    font-size: 20px;
     max-width: 800px;
     margin: 0 auto;
 }
@@ -81,6 +105,33 @@ p {
 .card-img-top:hover {
     transform: scale(1.05);
     transition: transform 0.3s;
+}
+
+.card-section{
+    background-color: #FDFAF6; 
+    
+}
+.testimonios-section {
+    background-color: #FDFAF6; 
+    padding: 30px 0; 
+    border-radius: 10px; 
+}
+
+#testimonialCarousel button{
+    background-color: #4A102A;
+    border-radius: 10px; 
+}
+
+/* Instalaciones */
+.lista-instalaciones p{
+    display: flex;
+    padding: 30px;
+
+}  
+
+.btn-pink{
+    background-color: #ff66b2; 
+    color: white;
 }
 
 /* Footer */
@@ -102,13 +153,13 @@ footer p {
     margin-bottom: 20px;
 }
 
-footer .redes img {
-    width: 40px;
+footer img {
+    width: 30px;
     margin: 0 10px;
     transition: transform 0.3s;
 }
 
-footer .redes img:hover {
+footer img:hover {
     transform: scale(1.2);
 }
 
@@ -136,4 +187,13 @@ form button {
 
 form button:hover {
     background-color: #d48a9f;
+}
+
+@media only screen and (max-width: 480px) {
+    .titulo1 {
+        font-size: 4em;
+   }
+   video{
+    width: 300px;
+   }
 }

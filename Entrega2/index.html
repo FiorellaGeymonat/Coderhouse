@@ -3,10 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
-
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
@@ -39,15 +37,15 @@
 </nav>
 
 <!-- Banner -->
-<header class="text-center d-flex flex-column align-items-center justify-content-center bg-light" style="background-image: url('./images/banner.png'); height: 440px; background-size: cover; background-position: center;">
-    <h1 class="titulo1" style="font-family: 'Montserrat', sans-serif;">AMICHAS GYM</h1>
-    <h2 class="titulo2" style="font-family: 'Bebas Neue', sans-serif;">Tu gimnasio de <span class="d-block">confianza</span></h2>
+<header class="text-center d-flex flex-column align-items-center justify-content-center bg-light">
+    <h1 class="titulo1">AMICHAS GYM</h1>
+    <h2 class="titulo2">Tu gimnasio de <span class="d-block">confianza</span></h2>
 </header>
 
 
     <!-- Video -->
-<section class="container text-center">
-    <video autoplay controls muted class="rounded" style="width: 40%;">
+<section class="container text-center ">
+    <video autoplay controls muted class="rounded">
         <source src="./videos/videogym.mp4" type="video/mp4">
         Tu navegador no soporta el video.
     </video>
@@ -57,7 +55,7 @@
     <!-- Filosofía -->
 <section class="container my-5">
     <h3 class="text-center mb-3">Nuestra Filosofía</h3>
-    <p class="lead text-justify">En nuestro gimnasio exclusivo para mujeres, creemos en la importancia de crear un espacio seguro, inclusivo y empoderador donde cada una pueda alcanzar sus metas personales...</p>
+    <p class="text-justify">En nuestro gimnasio exclusivo para mujeres, creemos en crear un espacio seguro, inclusivo y empoderador. Nos enfocamos en ofrecer un ambiente donde cada mujer pueda sentirse cómoda, apoyada y motivada a alcanzar sus metas personales, tanto físicas como emocionales. Aquí, la fuerza no solo se mide en músculos, sino en confianza, bienestar y crecimiento personal. Promovemos una cultura de sororidad y apoyo mutuo, donde cada logro se celebra y cada desafío se enfrenta juntas. Nuestro objetivo es ayudarte a ser la mejor versión de ti misma, en un entorno donde el respeto y el empoderamiento son la base de todo.</p>
 </section>
 
     <!-- Promociones -->
@@ -65,7 +63,7 @@
     <h3 class="text-center mb-3">Promociones</h3>
     <div class="row g-4">
         <div class="col-md-6">
-            <div class="card h-100 text-center">
+            <div class="card h-100 text-center card-section">
                 <img src="./images/promo2.jpg" class="card-img-top" alt="Promo1">
                 <div class="card-body">
                     <h3 class="card-title">¡Invita a una amiga!</h3>
@@ -74,7 +72,7 @@
             </div>
         </div>
         <div class="col-md-6">
-            <div class="card h-100 text-center">
+            <div class="card h-100 text-center card-section">
                 <img src="./images/promo1.jpg" class="card-img-top" alt="Promo2">
                 <div class="card-body">
                     <h3 class="card-title">¡Promo 3 meses!</h3>
@@ -85,17 +83,17 @@
     </div>
 </section>
 
- <!-- Carrusel de Testimonios -->
+<!-- Carrusel de Testimonios -->
 <section class="container my-5">
     <h3 class="text-center mb-3">Testimonios</h3>
-    <h3 class="text-center mb-3">Conoce los testimonios de nuestras amichas</h3>
+    <p class="text-center mb-3">Conoce los testimonios de nuestras amichas</p>
     <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
+        <div class="carousel-inner testimonios-section">
             <div class="carousel-item active">
                 <p class="text-justify">Laura, 29 años, Abogada: "Nunca había sido fan del ejercicio, pero este gimnasio cambió mi perspectiva..."</p>
             </div>
             <div class="carousel-item">
-                <p class="text-justify">Camila, 35 años, Empresaria: "Decidí unirme hace seis meses y fue la mejor decisión que pude haber tomado..."</p>
+                <p class="text-justify ">Camila, 35 años, Empresaria: "Decidí unirme hace seis meses y fue la mejor decisión que pude haber tomado..."</p>
             </div>
             <div class="carousel-item">
                 <p class="text-justify">Ana, 42 años, Madre y Estilista: "Como madre y mujer trabajadora, este gimnasio se convirtió en mi espacio favorito."</p>
@@ -113,17 +111,18 @@
 </section>
 
 
+
     <!-- Footer -->
 <footer class="bg-dark text-light text-center p-4">
     <h3>Síguenos</h3>
     <div class="d-flex justify-content-center mb-3">
-        <img src="./images/instagram.png" alt="Instagram" class="mx-2" style="height: 30px;">
-        <img src="./images/facebook.png" alt="Facebook" class="mx-2" style="height: 30px;">
+        <img src="./images/instagram.png" alt="Instagram" class="mx-2">
+        <img src="./images/facebook.png" alt="Facebook" class="mx-2">
     </div>
     <h3>Dirección</h3>
     <p>Calle Amistad 1234, Barrio Gimnasia, Montevideo</p>
     <div class="d-flex justify-content-center">
-        <iframe src="https://www.google.com/maps/embed?pb=..." width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=..." width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
 </footer>
 
