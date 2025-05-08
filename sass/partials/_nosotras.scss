@@ -1,0 +1,5 @@
+@import "../estilos";
+
+h2{
+    @include h3-style;
+}

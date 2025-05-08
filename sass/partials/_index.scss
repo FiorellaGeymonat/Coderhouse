@@ -1,0 +1,63 @@
+header {
+    height: 440px;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../images/banner.png');
+}
+
+body {
+    background-color: #f8bed2;
+    font-family: 'PT Sans', sans-serif;
+    .navbar {
+        background-color: #444;
+        padding: 1rem;
+        position: relative;
+        width: 100%;
+        z-index: 100;
+      
+        ul {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          display: flex;
+          justify-content: center;
+        }
+      
+        li {
+          margin-right: 20px;
+      
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+      
+        a {
+          color: white;
+          text-decoration: none;
+          font-weight: bold;
+          font-size: 1.2rem;
+          transition: color 0.3s;
+      
+          &:hover {
+            color: #f8bed2;
+          }
+        }
+      }
+    @mixin estilo-titulo($size, $sombra, $fuente){
+        font-size: $size;
+        text-shadow: $sombra;
+        font-family: $fuente, sans-serif;  
+    }
+    .titulo1 {
+        @include estilo-titulo(10em, 5px 5px 15px #B03052, 'Montserrat');
+    }
+    .titulo2 {
+        @include estilo-titulo(40px, 2px 2px 15px #B03052, 'Bebas Neue');
+        font-weight: bold;
+    }
+    video{
+        width: 20%;  
+    }
+}
+  
+  
