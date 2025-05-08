@@ -9,10 +9,11 @@
   background-color: #f8bed2;
 }
 
-h3 {
-  font-size: 30px;
-  font-weight: bold;
-  padding: 50px;
+p {
+  text-align: center;
+  font-size: 20px;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 header {
@@ -69,6 +70,128 @@ body .titulo2 {
 }
 body video {
   width: 20%;
+}
+body .section1, body .section3 {
+  background-color: #444;
+  padding: 1rem;
+}
+body .section2, body .section4 {
+  padding: 1rem;
+}
+body .card-title {
+  font-family: "Bebas Neue", sans-serif;
+}
+body .card-img-top:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
+body .card-section {
+  margin: 0 auto;
+  background-color: #FDFAF6;
+  padding: 40px;
+  width: 40em;
+  height: 45em;
+}
+body .card-section img {
+  margin: 0 auto;
+  width: 100%;
+  object-fit: cover;
+}
+body .testimonios-section {
+  display: flex;
+  background-color: #FDFAF6;
+  padding: 60px;
+  border-radius: 10px;
+}
+body #testimonialCarousel button {
+  background-color: #4A102A;
+  border-radius: 10px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 50px;
+}
+
+.nosotras-contenedor {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 50em;
+  margin-top: 5em;
+}
+
+.lista-instalaciones p {
+  display: flex;
+  padding: 30px;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+form input, form textarea, form button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+form button {
+  background-color: #d48a9f;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+form button:hover {
+  background-color: rgb(198.29375, 100.70625, 128.4);
+}
+
+.btn-pink {
+  background-color: #ff66b2;
+  color: white;
+}
+
+footer {
+  background-color: #444;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+}
+footer h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  padding: 0px;
+}
+footer p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  display: block;
+}
+footer img {
+  width: 30px;
+  margin: 0 10px;
+  transition: transform 0.3s;
+}
+footer img:hover {
+  transform: scale(1.2);
+}
+
+@media only screen and (max-width: 480px) {
+  .titulo1 {
+    font-size: 4em !important;
+  }
+  video {
+    width: 300px !important;
+  }
+  .card-section {
+    width: auto !important;
+  }
+  .nosotras-contenedor {
+    height: 250px !important;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */

@@ -43,11 +43,7 @@ body {
           }
         }
       }
-    @mixin estilo-titulo($size, $sombra, $fuente){
-        font-size: $size;
-        text-shadow: $sombra;
-        font-family: $fuente, sans-serif;  
-    }
+       
     .titulo1 {
         @include estilo-titulo(10em, 5px 5px 15px #B03052, 'Montserrat');
     }
@@ -58,6 +54,41 @@ body {
     video{
         width: 20%;  
     }
+  
+    .section1, .section3{
+        background-color: #444  ;
+        padding: 1rem;
+    }
+    .section2, .section4{
+        padding: 1rem
+    }
+    .card-title{
+        font-family: 'Bebas Neue', sans-serif;
+    }
+    .card-img-top:hover {
+        transform: scale(1.05);
+        transition: transform 0.3s;
+    }
+    .card-section{
+        margin: 0 auto;
+        background-color: #FDFAF6;
+        padding: 40px;
+        width: 40em;
+        height: 45em;
+        img{
+          margin: 0 auto;
+          width: 100%;
+          object-fit: cover;
+        }
+    }
+    .testimonios-section {
+      display: flex;
+      background-color: #FDFAF6; 
+      padding: 60px; 
+      border-radius: 10px;        
+    }
+    #testimonialCarousel button{
+      background-color: #4A102A;
+      border-radius: 10px;     
+  }  
 }
-  
-  

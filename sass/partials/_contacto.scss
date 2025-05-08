@@ -1,0 +1,24 @@
+form {
+    max-width: 600px;
+    margin: 0 auto;
+  
+    input, textarea, button {
+      @include form-input-style;
+    }
+  
+    button {
+      background-color: #d48a9f;
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+  
+    button:hover {
+      background-color: darken(#d48a9f, 10%);  // hover más suave con darken
+    }
+}
+
+.btn-pink {
+    background-color: #ff66b2;
+    color: white;
+}  

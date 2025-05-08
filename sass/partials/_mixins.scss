@@ -1,0 +1,20 @@
+@mixin h3-style {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 50px;
+  }
+
+@mixin estilo-titulo($size, $sombra, $fuente){
+    font-size: $size;
+    text-shadow: $sombra;
+    font-family: $fuente, sans-serif;  
+}
+
+@mixin form-input-style {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}

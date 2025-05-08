@@ -1,5 +1,11 @@
-@import "../estilos";
-
-h2{
+h2 {
     @include h3-style;
 }
+
+.nosotras-contenedor{
+    display: flex;  
+    align-content: center;
+    justify-content: center;
+    height: 50em;
+    margin-top: 5em;
+}  
