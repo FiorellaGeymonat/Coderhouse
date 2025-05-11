@@ -13,6 +13,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
     <!-- CSS -->
     <link rel="stylesheet" href="./css/estilos.css">
+    <!-- Animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- AOS -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>Amichas Gym</title>
 </head>
 
@@ -38,14 +43,14 @@
 </nav>
 
 <header class="text-center d-flex flex-column align-items-center justify-content-center bg-light">
-    <h1 class="titulo1">AMICHAS GYM</h1>
-    <h2 class="titulo2">Tu gimnasio de <span class="d-block">confianza</span></h2>
+    <h1 class="titulo1 animate__animated animate__fadeInDown">AMICHAS GYM</h1>
+    <h2 class="titulo2 animate__animated animate__fadeInLeft">Tu gimnasio de <span class="d-block">confianza</span></h2>
 </header>
 
 
     <!-- Video -->
 <section class="text-center section1">
-    <video autoplay controls muted class="rounded">
+    <video data-aos="fade-down-right" autoplay controls muted class="rounded">
         <source src="./videos/videogym.mp4" type="video/mp4">
         Tu navegador no soporta el video.
     </video>
@@ -62,7 +67,7 @@
 <section class="my-5 section3">
     <h3 class="text-center mb-3">Promociones</h3>
     <div class="row g-6 card-contenedor">
-        <div class="col-md-6">
+        <div data-aos="fade-down-right" class="col-md-6">
             <div class="card text-center card-section">
                 <img src="./images/promo2.jpg" class="card-img-top" alt="Promo1">
                 <div class="card-body">
@@ -72,7 +77,7 @@
             </div>
         </div>
         <div class="col-md-6">
-            <div class="card text-center card-section">
+            <div data-aos="fade-down-right" class="card text-center card-section">
                 <img src="./images/promo1.jpg" class="card-img-top" alt="Promo2">
                 <div class="card-body">
                     <h3 class="card-title">¡Promo 3 meses!</h3>
@@ -127,4 +132,9 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
+
+<script>
+  AOS.init();
+</script>
+
 </html>

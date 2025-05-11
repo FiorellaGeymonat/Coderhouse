@@ -13,6 +13,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
     <!-- CSS -->  
     <link rel="stylesheet" href="../css/estilos.css">
+    <!-- Animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- AOS -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>Amichas Gym</title>
 </head>
 
@@ -39,25 +44,32 @@
 
 <!-- Banner -->
 <section class="banner d-flex align-items-center justify-content-center">
-    <h1 class="text-center text-dark titulo-otros">Instalaciones</h1>
+    <h1 class="animate__animated animate__fadeInDown text-center text-dark titulo-otros">Instalaciones</h1>
 </section>
 
 <hr class="my-4">
 
 <!-- Instalaciones -->
 <section class="container my-5">
-    <h2 class="text-center mb-4">Nuestras Instalaciones</h2>
+    <h2 class="animate__animated animate__slideInUp text-center mb-4">Nuestras Instalaciones</h2>
     <p class="text-center">En Amichas Gym, nos enorgullece ofrecerte un espacio moderno y totalmente equipado, diseñado para que tu experiencia de entrenamiento sea cómoda, segura y motivadora. Nos esforzamos por crear un ambiente donde cada miembro se sienta a gusto, sin importar su nivel de fitness.</p>
 
     <div class="text-center lista-instalaciones">
-        <p><i class="bi bi-balloon-heart-fill"></i>Áreas de cardio y musculación: Equipos de última generación para entrenar tu resistencia y fuerza de manera eficaz.</p>
-        <p><i class="bi bi-balloon-heart-fill"></i>Salas de clases grupales: Espacios amplios y luminosos donde ofrecemos clases dinámicas como yoga, pilates, spinning y mucho más.</p>
-        <p><i class="bi bi-balloon-heart-fill"></i>Zona de entrenamiento funcional: Área especializada para entrenamientos intensos y personalizados, equipada para trabajar todo tu cuerpo.</p>
-        <p><i class="bi bi-balloon-heart-fill"></i>Vestidores cómodos y modernos: Con duchas, taquillas y todas las comodidades necesarias.</p>
-        <p><i class="bi bi-balloon-heart-fill"></i>Área de relajación: Espacio tranquilo para desconectar después del entrenamiento.</p>
+        <p data-aos="flip-right">
+            <i class="bi bi-balloon-heart-fill"></i>Áreas de cardio y musculación: Equipos de última generación para entrenar tu resistencia y fuerza de manera eficaz.</p>
+        <p data-aos="flip-right">
+            <i class="bi bi-balloon-heart-fill"></i>Salas de clases grupales: Espacios amplios y luminosos donde ofrecemos clases dinámicas como yoga, pilates, spinning y mucho más.</p>
+        <p data-aos="flip-right">
+            <i class="bi bi-balloon-heart-fill"></i>Zona de entrenamiento funcional: Área especializada para entrenamientos intensos y personalizados, equipada para trabajar todo tu cuerpo.</p>
+        <p data-aos="flip-right">
+            <i class="bi bi-balloon-heart-fill"></i>Vestidores cómodos y modernos: Con duchas, taquillas y todas las comodidades necesarias.</p>
+        <p data-aos="flip-right">
+            <i class="bi bi-balloon-heart-fill"></i>Área de relajación: Espacio tranquilo para desconectar después del entrenamiento.</p>
     </div>
 
     <p class="text-center">Cada rincón de nuestro gimnasio está pensado para ofrecerte la mejor experiencia, en un ambiente limpio, seguro y accesible, donde podrás concentrarte en tus objetivos sin distracciones.</p>
+    <br>
+    <br>
     <p class="text-center">¡Ven y conoce nuestras instalaciones! Estamos seguros de que encontrarás el lugar perfecto para dar el siguiente paso hacia una vida más saludable y activa.</p>
 </section>
 
@@ -79,6 +91,11 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 </body>
+
+<script>
+  AOS.init();
+</script>
+
 </html>
 
 
